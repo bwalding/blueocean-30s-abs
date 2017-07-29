@@ -3,6 +3,6 @@ properties(
     [disableConcurrentBuilds()
   ])
   stage("sleeping") {
-    sh "sleep 30"
+    sh "sleep 60"
   }
 }
